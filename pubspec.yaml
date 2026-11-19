@@ -1,0 +1,35 @@
+name: docuspeak
+description: "DocuSpeak – Document to Audio Converter"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.0.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  # HTTP client
+  http: ^1.2.0
+  # File picker (web + desktop)
+  file_picker: ^8.0.0
+  # Audio playback
+  audioplayers: ^6.0.0
+  # Shared preferences for history & settings
+  shared_preferences: ^2.3.0
+  # Smooth progress / animations
+  percent_indicator: ^4.2.3
+  # Icons
+  flutter_svg: ^2.0.9
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
